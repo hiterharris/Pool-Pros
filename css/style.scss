@@ -1,3 +1,5 @@
+@import "/Users/HiterHarrisIV/Desktop/RV-Code-Project/css/partials/_aqua-experts-modal.scss";
+
 .nav-top {
     background-color: #083D8C;
     overflow:hidden;
@@ -89,6 +91,11 @@
 }
  .pro-center {
      margin:0 1.5%;
+     .pro-title {
+        h1 {
+            margin:18px 0px !important;
+        }
+    }
  }
 
  footer {
