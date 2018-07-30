@@ -28,7 +28,6 @@ function outsideClick(e){
     modal.style.display = 'none';
   }
 }
-// -------------------------------------------
 
 // Get modal element
 var modal = document.getElementById('premiumPools');
@@ -61,10 +60,8 @@ function outsideClick(e){
   }
 }
 
-// -------------------------------
-
 // Get modal element
-var modal = document.getElementById('carolinaPool');
+var modal = document.getElementById('aquaExperts');
 // Get open modal button
 var modalBtn = document.getElementById('modalBtn3');
 // Get close button

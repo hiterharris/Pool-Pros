@@ -45,7 +45,8 @@
   color: #ccc;
   float: right;
   font-size: 30px;
-  color: #fff; }
+  color: #fff;
+  cursor: pointer; }
 
 .closeBtn:hover, .closeBtn:focus {
   color: #000;

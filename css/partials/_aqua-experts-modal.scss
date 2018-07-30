@@ -48,11 +48,12 @@
     line-height:1.5;
   }
   
-  .closeBtn{
+  .closeBtn {
     color:#ccc;
     float: right;
     font-size:30px;
     color:#fff;
+    cursor:pointer;
   }
   
   .closeBtn:hover,.closeBtn:focus{
