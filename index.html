@@ -40,7 +40,21 @@
       </div>
 
       <div class="filter">
+        <div class="dealers-found">
+          <h2 >7 dealers in 28226</h2>
+        </div>
+
+        <div class="filter-results">
+          <h2 class="filter-title">Filter Results</h2>
+          <ul class="filter-list">
+            <li><input type="checkbox">Service</li>
+            <li><input type="checkbox">Residential</li>
+            <li><input type="checkbox">Installation</li>
+            <li><input type="checkbox">Commercial</li>
+          </ul>
+        </div>
       </div>
+
  <!-- ---------- Pro Cards ------------- -->
       <div class="pros">
         <div class=" pro-box pro1">
@@ -135,7 +149,7 @@
       </div>
     </section>
 
-    <div id="aquaExperts" class="modal">
+    <div id="modal" class="modal">
         <div class="modal-content">
           <div class="modal-header">
               <span class="closeBtn">&times;</span>
@@ -143,7 +157,17 @@
               <h1>Pool Pros</h1>
           </div>
           <div class="modal-body">
-          
+            <p class="form-directions">Fill out form below and Pool Pros will get in touch.</p>
+            <form action="">
+              <p>First and last name:</p>
+              <input class="name" type="text" name="name" value=""><br>
+              <p>Phone number:</p>
+              <input class="number" type="text" name="number"><br>
+              <p>Email address:</p>
+              <input class="email" type="text" name="email"><br>
+              <p>Comments or questions:</p>
+              <input class="comments" type="text" name="comments">
+            </form>
           </div>
           <div class="modal-footer">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam.</p>
@@ -171,5 +195,6 @@
     </footer>
     
     <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </body>
 </html>

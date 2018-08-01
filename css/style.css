@@ -1,5 +1,4 @@
 .modal {
-  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -10,12 +9,30 @@
   background-color: rgba(0, 0, 0, 0.5); }
 
 .modal-content {
-  background-color: #f4f4f4;
+  background-color: white;
   margin: 10% auto;
   width: 50%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
   animation-duration: 1s; }
+  .modal-content .form-directions {
+    text-align: center;
+    color: grey;
+    font-weight: 200; }
+  .modal-content form {
+    background-color: #f4f4f4;
+    color: #6D6D6D;
+    font-weight: 600;
+    margin: 2%; }
+    .modal-content form input {
+      height: 45px;
+      margin: 2%; }
+    .modal-content form p {
+      margin: 0% 0% 1% 2%; }
+    .modal-content form .name, .modal-content form .email, .modal-content form .comments {
+      width: 85%; }
+    .modal-content form .comments {
+      height: 75px !important; }
 
 .modal-header h2, .modal-footer h3 {
   margin: 0; }
@@ -29,8 +46,7 @@
     font-weight: 200; }
 
 .modal-body {
-  padding: 10px 20px;
-  height: 300px; }
+  padding: 10px 20px; }
 
 .modal-footer {
   background: lightgrey;
@@ -105,12 +121,25 @@
   height: 90%; }
 
 .filter {
+  display: flex;
   height: 100px;
-  width: 75%;
-  background-color: lightgrey;
-  opacity: .3;
+  width: 90%;
+  background-color: #F6F6F6;
   margin: auto;
   border-radius: 10px; }
+  .filter .dealers-found {
+    margin: 2% 2% 2% 12%; }
+    .filter .dealers-found h2 {
+      color: #216DDF; }
+  .filter .filter-results {
+    display: flex;
+    margin: 2% 2% 2% 2%; }
+    .filter .filter-results .filter-list {
+      display: flex;
+      list-style: none; }
+      .filter .filter-results .filter-list li {
+        font-weight: 500;
+        padding: 10px; }
 
 .pros {
   display: flex;
@@ -229,8 +258,7 @@ footer .footer-bottom {
   .filter {
     height: 300px;
     width: 100%;
-    background-color: lightgrey;
-    opacity: .3;
+    background-color: #F6F6F6;
     border-radius: 0px; }
 
   .pro-box {

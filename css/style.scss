@@ -1,4 +1,4 @@
-@import "/Users/HiterHarrisIV/Desktop/RV-Code-Project/css/partials/_aqua-experts-modal.scss";
+@import "/Users/HiterHarrisIV/Desktop/RV-Code-Project/css/partials/_modal.scss";
 
 .nav-top {
     background-color: #083D8C;
@@ -66,12 +66,30 @@
 }
 
 .filter {
+    display:flex;
     height: 100px;
-    width:75%;
-    background-color: lightgrey;
-    opacity: .3;
+    width:90%;
+    background-color: #F6F6F6;
     margin: auto;
     border-radius: 10px;
+    .dealers-found {
+        margin:2% 2% 2% 12%;
+        h2 {
+            color: #216DDF;
+        }
+    }
+    .filter-results {
+        display:flex;
+        margin:2% 2% 2% 2%;
+        .filter-list {
+            display:flex;
+            list-style:none;
+            li {
+                font-weight:500;
+                padding:10px;
+            }
+        }
+    }
 }
 
 .pros {
@@ -222,8 +240,7 @@
     .filter {
         height: 300px;
         width:100%;
-        background-color: lightgrey;
-        opacity: .3;
+        background-color: #F6F6F6;
         border-radius: 0px;
     }
     .pro-box {

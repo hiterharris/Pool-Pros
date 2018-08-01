@@ -1,5 +1,5 @@
 // Get modal element
-var modal = document.getElementById('aquaExperts');
+var modal = document.getElementById('modal');
 // Get open modal button
 var modalBtn = document.getElementById('modalBtn');
 // Get close button
@@ -61,7 +61,7 @@ function outsideClick(e){
 }
 
 // Get modal element
-var modal = document.getElementById('aquaExperts');
+var modal = document.getElementById('modal');
 // Get open modal button
 var modalBtn = document.getElementById('modalBtn3');
 // Get close button
