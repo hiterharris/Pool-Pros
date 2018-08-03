@@ -286,6 +286,10 @@ footer .footer-nav-top {
     box-shadow: none;
     border-radius: 0px; }
 
+  .pro-number {
+    background-color: #216DDF;
+    color: white; }
+
   footer .footer-content .connect .twitter, footer .footer-content .connect .youtube {
     width: 8%; }
 
