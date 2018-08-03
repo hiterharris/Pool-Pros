@@ -70,12 +70,17 @@
   text-decoration: none;
   cursor: pointer; }
 
+nav {
+  box-shadow: 0px 2px 5px grey; }
+
 .nav-top {
   background-color: #083D8C;
   overflow: hidden; }
   .nav-top ul {
     display: flex;
     justify-content: flex-end; }
+    .nav-top ul .action-icon {
+      width: 8%; }
     .nav-top ul li {
       padding-right: 50px;
       list-style: none;
@@ -88,14 +93,13 @@
 .nav-bottom {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 1%;
-  box-shadow: 0px 2px 10px grey; }
+  padding-bottom: 1%; }
   .nav-bottom img {
     width: 60%;
     margin: 5% 10% 3% 10%; }
   .nav-bottom .nav-links {
     margin-right: 8%;
-    margin-top: 1%; }
+    margin-top: 2%; }
     .nav-bottom .nav-links ul {
       display: flex;
       width: 150%; }
@@ -108,6 +112,7 @@
   .nav-bottom .nav-button {
     margin-right: 8%; }
     .nav-bottom .nav-button button {
+      display: flex;
       width: 125%;
       background-color: white;
       border: 1px solid #216DDF;
@@ -115,11 +120,15 @@
       font-family: "Arial";
       font-weight: 600;
       margin: 15% 8% 0% 0%;
-      padding: 10%;
       cursor: pointer; }
+      .nav-bottom .nav-button button .location-icon {
+        width: 10%;
+        margin: 6% 6%;
+        height: 25px; }
 
 .water img {
-  height: 90%; }
+  height: 90%;
+  margin-top: 1%; }
 
 .filter {
   display: flex;
@@ -130,19 +139,42 @@
   margin: auto;
   border-radius: 10px; }
   .filter .dealers-found {
-    margin: 2% 2% 2% 12%; }
+    margin: 2% 2% 2% 12%;
+    border-right: 1px solid lightgrey; }
     .filter .dealers-found h2 {
-      color: #216DDF; }
+      color: #216DDF;
+      font-size: 20px;
+      padding-right: 50px; }
   .filter .filter-results {
     display: flex;
     margin: 2% 2% 2% 2%; }
+    .filter .filter-results .filter-title {
+      font-size: 20px;
+      color: #3F3F3F; }
     .filter .filter-results .filter-list {
       display: flex;
       flex-wrap: wrap;
-      list-style: none; }
+      list-style: none;
+      margin-top: 10px; }
       .filter .filter-results .filter-list li {
         font-weight: 500;
-        padding: 10px; }
+        padding: 10px;
+        display: flex; }
+        .filter .filter-results .filter-list li p {
+          margin-top: 4px; }
+      .filter .filter-results .filter-list .checkbox {
+        -webkit-appearance: none;
+        border: 1px solid #cacece;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        margin-right: 15px;
+        height: 25px;
+        width: 25px;
+        border-radius: 20%; }
+      .filter .filter-results .filter-list .checkbox:checked {
+        background-color: #216DDF; }
 
 .pros {
   display: flex;
@@ -164,6 +196,11 @@
     .pro-box .certifications ul {
       display: flex;
       flex-wrap: wrap; }
+      .pro-box .certifications ul .cert-icon {
+        width: 4%;
+        height: 100%;
+        padding-top: 5px;
+        padding-right: 1px; }
       .pro-box .certifications ul li {
         width: 40%;
         margin: 2%;
@@ -195,8 +232,8 @@
       font-weight: 100;
       margin-top: 0; }
     .pro-box .pro-info .contact-button {
-      width: 175px;
-      height: 50px;
+      width: 200px;
+      height: 45px;
       background: none;
       border: 1px solid #21CECD;
       color: #083D8C;
@@ -241,7 +278,7 @@ footer .footer-bottom {
     display: flex;
     justify-content: center;
     list-style: none; }
-    footer .footer-bottom .footer-list .seperator2 {
+    footer .footer-bottom .footer-list .separator2 {
       margin: 0;
       padding-right: 4%;
       color: white; }
@@ -317,11 +354,11 @@ footer .footer-nav-top {
     margin: 0% 5%;
     text-align: center; }
 
-  .seperator {
+  .separator {
     margin: 0 10px;
     color: white; }
 
-  .seperator2 {
+  .separator2 {
     margin: 0;
     color: white; }
 

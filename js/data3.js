@@ -35,6 +35,6 @@ var certifications = {
 }
 
 cert13.innerHTML = certifications.cert13;
-cert23.innerHTML = certifications.cert13;
+cert23.innerHTML = certifications.cert23;
 cert33.innerHTML = certifications.cert33;
 cert43.innerHTML = certifications.cert43;

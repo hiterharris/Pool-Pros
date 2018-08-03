@@ -1,12 +1,18 @@
 @import "/Users/HiterHarrisIV/Desktop/RV-Code-Project/css/partials/_modal.scss";
 
 // NAVIGATION BAR
+nav {
+    box-shadow: 0px 2px 5px grey;    
+}
 .nav-top {
     background-color: #083D8C;
     overflow:hidden;
     ul {
         display:flex;
         justify-content: flex-end;
+        .action-icon {
+            width: 8%;
+        }
         li {
             padding-right:50px;
             list-style:none;
@@ -23,14 +29,13 @@
     display: flex;
     justify-content: space-between;
     padding-bottom:1%;
-    box-shadow: 0px 2px 10px grey;
     img {
         width:60%;
         margin:5% 10% 3% 10%;
     }
     .nav-links {
          margin-right:8%;
-         margin-top:1%;
+         margin-top:2%;
         ul{
             display:flex;
             width:150%;
@@ -46,6 +51,7 @@
     .nav-button {
         margin-right:8%;
         button {
+            display:flex;
             width: 125%;
             background-color:white;
             border: 1px solid #216DDF;
@@ -53,8 +59,12 @@
             font-family:"Arial";
             font-weight: 600;
             margin:15% 8% 0% 0%;
-            padding:10%;
             cursor:pointer;
+            .location-icon {
+                width: 10%;
+                margin: 6% 6%;
+                height: 25px;
+            }
         }
     }
     
@@ -64,6 +74,7 @@
 .water {
     img {
         height:90%;
+        margin-top: 1%;
     }
 }
 
@@ -78,20 +89,47 @@
     border-radius: 10px;
     .dealers-found {
         margin:2% 2% 2% 12%;
+        border-right: 1px solid lightgrey;
         h2 {
             color: #216DDF;
+            font-size:20px;
+            padding-right: 50px;
         }
     }
     .filter-results {
         display:flex;
         margin:2% 2% 2% 2%;
+        .filter-title {
+            font-size:20px;
+            color:#3F3F3F;
+        }
         .filter-list {
             display:flex;
             flex-wrap:wrap;
             list-style:none;
+            margin-top: 10px;
             li {
                 font-weight:500;
                 padding:10px;
+                display:flex;
+                p {
+                    margin-top: 4px;
+                }
+            }
+            .checkbox {
+                -webkit-appearance: none;
+                border: 1px solid #cacece;
+                padding: 10px;
+                border-radius: 5px;
+                display: inline-block;
+                position: relative;
+                margin-right: 15px;
+                height: 25px;
+                width: 25px;
+                border-radius: 20%;
+            }
+            .checkbox:checked {
+                background-color: #216DDF;
             }
         }
     }
@@ -118,6 +156,12 @@
         ul {
             display:flex;
             flex-wrap:wrap;
+            .cert-icon {
+                width: 4%;
+                height: 100%;
+                padding-top:5px;
+                padding-right: 1px;
+            }
             li {
                width:40%;
                margin:2%;
@@ -157,8 +201,8 @@
             margin-top:0;
         }
         .contact-button {
-            width: 175px;
-            height:50px;
+            width: 200px;
+            height: 45px;
             background:none;
             border: 1px solid #21CECD;
             color:#083D8C;
@@ -220,7 +264,7 @@
              display:flex;
              justify-content: center;
              list-style: none;
-             .seperator2 {
+             .separator2 {
                 margin: 0;
                 padding-right: 4%;
                 color: white;
@@ -313,11 +357,11 @@
         margin:0% 5%;
         text-align:center;
     }
-    .seperator {
+    .separator {
         margin: 0 10px;
         color: white;    
     }
-    .seperator2 {
+    .separator2 {
         margin: 0;
         color: white;    
     }
