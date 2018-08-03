@@ -1,6 +1,6 @@
 @import "/Users/HiterHarrisIV/Desktop/RV-Code-Project/css/partials/_modal.scss";
 
-// Navigation Bar
+// NAVIGATION BAR
 .nav-top {
     background-color: #083D8C;
     overflow:hidden;
@@ -60,14 +60,14 @@
     
 }
 
-// Water Header Image
+// WATER HEADER IMAGE
 .water {
     img {
         height:90%;
     }
 }
 
-// Filter Section
+// FILTER
 .filter {
     display:flex;
     flex-wrap:wrap;
@@ -97,7 +97,7 @@
     }
 }
 
-// Pro Cards
+// PRO CARDS
 .pros {
     display:flex;
     justify-content: center;
@@ -184,7 +184,7 @@
     margin: 6%;
 }
 
-// Footer
+// FOOTER
  footer {
      .footer-content {
         background-color: #083D8C;
@@ -220,6 +220,11 @@
              display:flex;
              justify-content: center;
              list-style: none;
+             .seperator2 {
+                margin: 0;
+                padding-right: 4%;
+                color: white;
+            }
              li {
                  margin:1%;
                  color:white;
@@ -233,7 +238,7 @@
      }
      .footer-nav-top {
         display:none;
-        background-color: #083D8C;
+        background-color: #216DDF;
         overflow:hidden;
         ul {
             display:flex;
@@ -252,13 +257,13 @@
     }
  }
 
-// Icons
+// ICONS
 .mail-icon {
     width: 10%;
     padding-right: 10px
 }
 
-// Media Queries
+// MEDIA QUERIES
 @media (max-width: 1300px) {
     .nav-links {
         display: none;
@@ -267,10 +272,11 @@
         width: 100%;
     }
     .filter {
-        height: 300px;
-        width:100%;
-        background-color: #F6F6F6;
-        border-radius: 0px;
+        display:none;
+        // height: 300px;
+        // width:100%;
+        // background-color: #F6F6F6;
+        // border-radius: 0px;
     }
     .pro-box {
         margin: 0% 4% !important;
@@ -287,13 +293,39 @@
     footer .footer-content .connect .facebook {
         width:4%;
     }
-    .footer-bottom {
-        display:none;
+    .footer-list {
+        display: flex;
+        justify-content: space-around !important;
+        padding-left: 0px;
+    }
+    .footer-list a {
+        width: 100% !important;
+        font-size: 12px;
+        text-align: center;
     }
     .nav-top {
         display:none;
     }
-    // .footer-nav-top {
-    //     display:block;
-    // }
+    .footer-nav-top {
+        display:block !important;
+        border-bottom: 1px solid white;
+        width:90%;
+        margin:0% 5%;
+        text-align:center;
+    }
+    .seperator {
+        margin: 0 10px;
+        color: white;    
+    }
+    .seperator2 {
+        margin: 0;
+        color: white;    
+    }
+    footer .footer-nav-top ul {
+        padding-right: 50px;
+    }
+    footer .footer-nav-top ul li {
+        font-size:12px;
+        width:100%;
+    }
 }

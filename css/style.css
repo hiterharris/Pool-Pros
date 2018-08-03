@@ -241,6 +241,10 @@ footer .footer-bottom {
     display: flex;
     justify-content: center;
     list-style: none; }
+    footer .footer-bottom .footer-list .seperator2 {
+      margin: 0;
+      padding-right: 4%;
+      color: white; }
     footer .footer-bottom .footer-list li {
       margin: 1%;
       color: white;
@@ -250,7 +254,7 @@ footer .footer-bottom {
       width: 12%; }
 footer .footer-nav-top {
   display: none;
-  background-color: #083D8C;
+  background-color: #216DDF;
   overflow: hidden; }
   footer .footer-nav-top ul {
     display: flex;
@@ -276,10 +280,7 @@ footer .footer-nav-top {
     width: 100%; }
 
   .filter {
-    height: 300px;
-    width: 100%;
-    background-color: #F6F6F6;
-    border-radius: 0px; }
+    display: none; }
 
   .pro-box {
     margin: 0% 4% !important;
@@ -296,10 +297,39 @@ footer .footer-nav-top {
   footer .footer-content .connect .facebook {
     width: 4%; }
 
-  .footer-bottom {
-    display: none; }
+  .footer-list {
+    display: flex;
+    justify-content: space-around !important;
+    padding-left: 0px; }
+
+  .footer-list a {
+    width: 100% !important;
+    font-size: 12px;
+    text-align: center; }
 
   .nav-top {
-    display: none; } }
+    display: none; }
+
+  .footer-nav-top {
+    display: block !important;
+    border-bottom: 1px solid white;
+    width: 90%;
+    margin: 0% 5%;
+    text-align: center; }
+
+  .seperator {
+    margin: 0 10px;
+    color: white; }
+
+  .seperator2 {
+    margin: 0;
+    color: white; }
+
+  footer .footer-nav-top ul {
+    padding-right: 50px; }
+
+  footer .footer-nav-top ul li {
+    font-size: 12px;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
