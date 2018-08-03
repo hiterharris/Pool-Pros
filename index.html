@@ -8,6 +8,8 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+
+<!-- Navigation Bar  -->
     <nav>
       <div class="nav-top">
         <ul>
@@ -34,6 +36,7 @@
       </div>
     </nav>
 
+<!-- Water Header Image -->
     <section>
       <div class="water">
         <img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/water-image.png" alt="">
@@ -55,30 +58,31 @@
         </div>
       </div>
 
- <!-- ---------- Pro Cards ------------- -->
+ <!-- Pro Cards -->
       <div class="pros">
         <div class=" pro-box pro1">
-
           <div class="pro-title">
-            <h1>Aqua Experts</h1>
+            <h1 id="aquaExperts"></h1>
           </div>
-
           <div class="pro-info">
             <div class="pro-number">
               <img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-desktop.png" alt="">
-              <h1>1.888.888.8888</h1>
+              <h1 id="phone1"></h1>
             </div>
             <h5 class="note"><em>Can't talk now? Click below to send an email.</em></h5>
             <button id="modalBtn" class="button contact-button"><img class="mail-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/email-icon.png" alt="">Contact this Pro</button>
             <div class="hours">
               <h5>Business Hours</h5>
-              <h5 class="time">Weekdays 7:00am - 7:00pm</h5>
-              <h5 class="time">Saturdays 7:00am - 3:00pm</h5>
-              <h5 class="time">Sundays - CLOSED</h5>
+              <h5 id="mon" class="time"></h5>
+              <h5 id="tue" class="time"></h5>
+              <h5 id="wed" class="time"></h5>
+              <h5 id="thu" class="time"></h5>
+              <h5 id="fri" class="time"></h5>
+              <h5 id="sat" class="time"></h5>
+              <h5 id="sun" class="time"></h5>
             </div>
           </div>
-
-          <div class="pro-types">
+          <div class="certifications">
             <ul>
               <li>Installation Pro</li>
               <li>Residential Pro</li>
@@ -107,7 +111,7 @@
                 </div>
               </div>
     
-              <div class="pro-types">
+              <div class="certifications">
                 <ul>
                   <li>Installation Pro</li>
                   <li>Residential Pro</li>
@@ -136,7 +140,7 @@
                     </div>
                   </div>
         
-                  <div class="pro-types">
+                  <div class="certifications">
                     <ul>
                       <li>Installation Pro</li>
                       <li>Residential Pro</li>
@@ -195,6 +199,7 @@
     </footer>
     
     <script src="js/script.js"></script>
+    <script src="js/data.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 @import "/Users/HiterHarrisIV/Desktop/RV-Code-Project/css/partials/_modal.scss";
 
+// Navigation Bar
 .nav-top {
     background-color: #083D8C;
     overflow:hidden;
@@ -59,12 +60,14 @@
     
 }
 
+// Water Header Image
 .water {
     img {
         height:90%;
     }
 }
 
+// Filter Section
 .filter {
     display:flex;
     height: 100px;
@@ -92,6 +95,7 @@
     }
 }
 
+// Pro Cards
 .pros {
     display:flex;
     justify-content: center;
@@ -99,13 +103,72 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 .pro-box {
     flex-wrap: wrap;
     width:400px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     box-shadow: 0px 2px 5px grey;
+    .certifications {
+        background-color:lightgrey;
+        overflow:hidden;
+        ul {
+            display:flex;
+            flex-wrap:wrap;
+            li {
+               width:40%;
+               margin:2%;
+               list-style: none;
+               color:grey;
+               font-size:12px;
+               font-weight:600;
+               letter-spacing: .75px;
+            }
+        }
+    }
+    .pro-title {
+        text-align:center;
+        border-bottom: 1px solid lightgrey;
+        width:75%;
+        margin:auto;
+        h1 {
+            font-weight:100;
+            margin:12%;
+        }
+    }
+    .pro-info {
+        text-align:center;
+        margin-bottom:12%;
+        .pro-number {
+            display:flex;
+            justify-content: center;
+            margin-top:5%;
+            img {
+                width:8%;
+                height:8%;
+                margin: 6% 2% 0 0;
+            }
+        }
+        .note {
+            font-weight:100;
+            margin-top:0;
+        }
+        .contact-button {
+            width: 175px;
+            height:50px;
+            background:none;
+            border: 1px solid #21CECD;
+            color:#083D8C;
+            font-weight:bold;
+            cursor:pointer;
+        }
+        .hours {
+            line-height:.5;
+            .time {
+                font-weight:100;
+            }
+        }
+    }
 }
  .pro-center {
      margin:0 1.5%;
@@ -116,6 +179,7 @@
     }
  }
 
+// Footer
  footer {
      .footer-content {
         background-color: #083D8C;
@@ -165,74 +229,13 @@
      
  }
 
- .pro-title {
-     text-align:center;
-     border-bottom: 1px solid lightgrey;
-     width:75%;
-     margin:auto;
-     h1 {
-         font-weight:100;
-         margin:12%;
-     }
- }
-
- .pro-info {
-     text-align:center;
-     margin-bottom:12%;
-     .pro-number {
-         display:flex;
-         justify-content: center;
-         margin-top:5%;
-         img {
-             width:8%;
-             height:8%;
-             margin: 6% 2% 0 0;
-         }
-     }
-     .note {
-         font-weight:100;
-         margin-top:0;
-     }
-     .contact-button {
-         width: 175px;
-         height:50px;
-         background:none;
-         border: 1px solid #21CECD;
-         color:#083D8C;
-         font-weight:bold;
-         cursor:pointer;
-     }
-     .hours {
-         line-height:.5;
-         .time {
-             font-weight:100;
-         }
-     }
- }
-
- .pro-types {
-     background-color:lightgrey;
-     overflow:hidden;
-     ul {
-         display:flex;
-         flex-wrap:wrap;
-         li {
-            width:40%;
-            margin:2%;
-            list-style: none;
-            color:grey;
-            font-size:12px;
-            font-weight:600;
-            letter-spacing: .75px;
-         }
-     }
- }
-
+// Icons
 .mail-icon {
     width: 10%;
     padding-right: 10px
 }
 
+// Media Queries
 @media (max-width: 1300px) {
     .nav-links {
         display: none;

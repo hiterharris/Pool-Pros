@@ -30,7 +30,7 @@ function outsideClick(e){
 }
 
 // Get modal element
-var modal = document.getElementById('premiumPools');
+var modal = document.getElementById('modal');
 // Get open modal button
 var modalBtn = document.getElementById('modalBtn2');
 // Get close button
