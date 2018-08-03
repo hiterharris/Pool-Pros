@@ -70,6 +70,7 @@
 // Filter Section
 .filter {
     display:flex;
+    flex-wrap:wrap;
     height: 100px;
     width:90%;
     background-color: #F6F6F6;
@@ -86,6 +87,7 @@
         margin:2% 2% 2% 2%;
         .filter-list {
             display:flex;
+            flex-wrap:wrap;
             list-style:none;
             li {
                 font-weight:500;
@@ -229,7 +231,25 @@
              }
          }
      }
-     
+     .footer-nav-top {
+        display:none;
+        background-color: #083D8C;
+        overflow:hidden;
+        ul {
+            display:flex;
+            justify-content: flex-end;
+            li {
+                padding-right:50px;
+                list-style:none;
+                color:white;
+                font-weight: 100;
+                font-size:12px;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+    }
  }
 
 // Icons
@@ -243,6 +263,9 @@
     .nav-links {
         display: none;
     }
+    .water img {
+        width: 100%;
+    }
     .filter {
         height: 300px;
         width:100%;
@@ -254,7 +277,19 @@
         box-shadow: none;
         border-radius:0px;
     }
+    footer .footer-content .connect .twitter, footer .footer-content .connect .youtube {
+        width:8%;
+    }
+    footer .footer-content .connect .facebook {
+        width:4%;
+    }
     .footer-bottom {
         display:none;
     }
+    .nav-top {
+        display:none;
+    }
+    // .footer-nav-top {
+    //     display:block;
+    // }
 }
