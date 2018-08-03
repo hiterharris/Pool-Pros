@@ -106,6 +106,7 @@
 .pro-box {
     flex-wrap: wrap;
     width:400px;
+    margin-right:2%;
     border: 1px solid lightgrey;
     border-radius: 10px;
     box-shadow: 0px 2px 5px grey;
@@ -171,13 +172,15 @@
     }
 }
  .pro-center {
-     margin:0 1.5%;
      .pro-title {
         h1 {
             margin:18px 0px !important;
         }
     }
  }
+ #name2, #name3 {
+    margin: 6%;
+}
 
 // Footer
  footer {

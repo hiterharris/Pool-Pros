@@ -17,23 +17,7 @@ var data1 = {
     "sun": "Sunday CLOSED",
 }
 
-name1.innerHTML = data1.name;
-phone1.innerHTML = data1.phone1;
-mon.innerHTML = data1.mon;
-tue.innerHTML = data1.tue;
-wed.innerHTML = data1.wed;
-thu.innerHTML = data1.thu;
-fri.innerHTML = data1.fri;
-sat.innerHTML = data1.sat;
-sun.innerHTML = data1.sun;
-
-var certifications = {
-    "cert1": "Installation Pro",
-    "cert2": "Commercial Pro",
-    "cert3": "Residential Pro",
-    "cert4": "Service Pro"
-}
-
-cert1.innerHTML = certifications.cert1;
-cert3.innerHTML = certifications.cert3;
-cert4.innerHTML = certifications.cert4;
+// module.js
+export function test() {
+    return data1;
+  }
