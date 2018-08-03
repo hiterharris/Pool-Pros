@@ -1,5 +1,5 @@
 .modal {
-    display:none;
+    // display:none;
     position: fixed;
     z-index:1;;
     left: 0;
@@ -18,7 +18,7 @@
     animation-name:modalopen;
     animation-duration:1s;
     .form-directions {
-      text-align:center;
+      padding-left:20px;
       color:grey;
       font-weight:200;
     }
@@ -84,4 +84,37 @@
     color:#000;
     text-decoration: none;
     cursor:pointer;
+  }
+
+  .yes {
+    width: 12%;
+    color: white;
+    background-color: #01C7C6;
+    border: 1px solid black;
+    padding:5px;
+  }
+
+  .no {
+    width: 12%;
+    color: white;
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding:5px;
+  }
+
+  .send {
+    margin: 5%;
+    text-align: center;
+    padding-bottom: 30px;
+    cursor:pointer;
+    button {
+      border:none;
+      background-color: #F6F6F6;
+    }
+  }
+
+  @media(max-width:1300px) {
+    .modal-content {
+      width: 90%;
+    }
   }

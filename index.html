@@ -17,7 +17,6 @@
           <a href="#"><li>Commercial Service <img class="action-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/action-commercial-icon.png" alt=""> </li></a>
         </ul>
       </div>
-
       <div class="nav-bottom">
         <div class="logo">
           <img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/pool-pros-logo.png" alt="">
@@ -32,6 +31,27 @@
         </div>
         <div class="nav-button">
           <button class="find-a-pro"><img class="location-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/location-icon.png" alt=""><p>Find a Pool Pro</p></button>
+        </div>
+      </div>
+
+      <!-- MOBILE NAVIGATION -->
+      <div class="nav-bottom-mobile">
+        <div class="logo">
+          <img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/pool-pros-logo.png" alt="">
+        </div>
+        <div class="nav-button-mobile">
+          <button class="find-a-pro"><img class="location-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/location-icon.png" alt=""><p>Find a Pro</p></button>
+        </div>
+        <div class="mobile-menu">
+          <img id="menu" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/js/menu-icon-mobile.png" alt="">
+        </div>
+        <div id="dropdown" class="dropdown">
+          <ul>
+            <a href="#"><li>Pools & Spas</li></a>
+            <a href="#"><li>Supplies</li></a>
+            <a href="#"><li>Resources</li></a>
+            <a href="#"><li>Services</li></a>
+          </ul>
         </div>
       </div>
     </nav>
@@ -69,7 +89,8 @@
           </div>
           <div class="pro-info">
             <div class="pro-number">
-              <img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-desktop.png" alt="">
+              <img class="phone-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-desktop.png" alt="">
+              <img class="mobile-phone-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-mobile.png" alt="">
               <h1 id="phone1"></h1>
             </div>
             <h5 class="note"><em>Can't talk now? Click below to send an email.</em></h5>
@@ -101,7 +122,8 @@
           </div>
           <div class="pro-info">
             <div class="pro-number">
-              <img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-desktop.png" alt="">
+              <img class="phone-icon"src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-desktop.png" alt="">
+              <img class="mobile-phone-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-mobile.png" alt="">
               <h1 id="phone2"></h1>
             </div>
             <h5 class="note"><em>Can't talk now? Click below to send an email.</em></h5>
@@ -134,7 +156,8 @@
           </div>
           <div class="pro-info">
             <div class="pro-number">
-              <img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-desktop.png" alt="">
+              <img class="phone-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-desktop.png" alt="">
+              <img class="mobile-phone-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/phone-icon-mobile.png" alt="">
               <h1 id="phone3"></h1>
             </div>
             <h5 class="note"><em>Can't talk now? Click below to send an email.</em></h5>
@@ -156,11 +179,8 @@
               <img class="cert-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/users-commercial-pro.png" alt=""><li id="cert23"></li>
               <img class="cert-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/home-residential-pro.png" alt=""><li id="cert33"></li>
               <img class="cert-icon" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/gear-service-pro.png" alt=""><li id="cert43"></li>
-              </ul>
+            </ul>
           </div>
-      </div>
-
-           </div>
         </div>
       </div>
     </section>
@@ -169,9 +189,9 @@
     <div id="modal" class="modal">
         <div class="modal-content">
           <div class="modal-header">
-              <span class="closeBtn">&times;</span>
-              <h3>Email</h3>
-              <h1>Pool Pros</h1>
+            <span class="closeBtn">&times;</span>
+            <h3>Email</h3>
+            <h1>Pool Pros</h1>
           </div>
           <div class="modal-body">
             <p class="form-directions">Fill out form below and Pool Pros will get in touch.</p>
@@ -184,7 +204,16 @@
               <input class="email" type="text" name="email"><br>
               <p>Comments or questions:</p>
               <input class="comments" type="text" name="comments">
+              <p>Do you currently own a pool or spa?</p>
+              <div class="form-buttons">
+                <button class="yes">Yes</button>
+                <button class="no">No</button>
+              </div>
+              <div class="send">
+                <button><h2>Send my email</h2><img src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/next-arrow.png" alt=""></button>
+              </div>
             </form>
+            
           </div>
           <div class="modal-footer">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam.</p>
@@ -197,10 +226,10 @@
       <div class="footer-content">
         <img class="footer-img" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/pool-pros-logo-footer.png" alt="">
         <div class="connect">
-            <h4>CONNECT WITH US</h4>
-            <img class="twitter" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/twitter-icon.png" alt="">
-            <img class="facebook" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/facebook-icon.png" alt="">
-            <img class="youtube" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/youtube-icon.png" alt="">
+          <h4>CONNECT WITH US</h4>
+          <img class="twitter" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/twitter-icon.png" alt="">
+          <img class="facebook" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/facebook-icon.png" alt="">
+          <img class="youtube" src="/Users/HiterHarrisIV/Desktop/RV-Code-Project/images/youtube-icon.png" alt="">
         </div>
       </div>
       <div class="footer-bottom">
@@ -221,6 +250,8 @@
       </div>
     </footer>
     
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/modal2.js"></script>
@@ -228,6 +259,5 @@
     <script src="js/data.js"></script>
     <script src="js/data2.js"></script>
     <script src="js/data3.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </body>
 </html>
